@@ -31,7 +31,7 @@ nav ul li a {
   text-decoration: none;
   color: black;
   padding: 2.4rem;
-  transition: all 250ms linear 0s;
+  transition: all 2ms linear 0s;
 }
 
 nav ul li a:hover {
@@ -40,7 +40,6 @@ nav ul li a:hover {
 
 header .container {
   background: transparent radial-gradient(closest-side at 95% 76%, #FE1390 0%, #df1cc5 100%) 0% 0% no-repeat padding-box;
-  background: transparent radial-gradient(closest-side at 95% 76%, #FE1390 0%, #DF1CC5 100%) 0% 0% no-repeat padding-box;
 }
 
 header .container .title {
@@ -58,24 +57,92 @@ header .container .title {
   color: #fff;
 }
 
-header button {
+header .btn-header {
   position: relative;
-  top: 381px;
+  top: 361px;
   left: 141px;
   width: 250px;
   height: 63px;
-
+  
   border: 3px solid #FFF;
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
   color: #fff;
   background-color: transparent;
+  cursor: pointer;
 }
 
 header .container .img-banner {
+  background-image: url(assets/banner.png);
   position: relative;
   left: 690px;
   height: 500px;
-  width: 100%;
-  max-width: 1440px;
+  width: 750px;
+}
+
+section div.lorenIpsum {
+  position: relative;
+}
+
+section .img-notebook {
+  background-image: url(assets/notebook.png);
+  position: relative;
+  left: 0px;
+  top: 75px;
+  width: 749px;
+  height: 500px;
+}
+
+section  .title-about {
+  position: relative;
+  top: 75px;
+  left: 735px;
+  width: 564px;
+  height: 113px;
+
+  color: #000000de;
+  text-align: left;
+  font: italic normal 600 48px/48px 'Open Sans';
+  text-transform: uppercase;
+}
+
+section .text-about {
+  position: relative;
+  top: 84px;
+  left: 735px;
+  width: 564px;
+  height: 70px;
+
+  font: normal normal normal 16px/24px 'Open Sans';
+  text-align: left;
+  color: #00000094;
+  letter-spacing: 0px;
+}
+
+section ul li {
+  position: relative;
+  top: 104px;
+  left: 766px;
+  width: 548px;
+  height: 22px;
+
+  color: #00000094;
+  text-align: left;
+  font: normal normal normal 16px/24px 'Open Sans';
+  letter-spacing: 0px;
+}
+
+section .btn-about {
+  position: relative;
+  top: 130px;
+  left: 735px;
+  width: 300px;
+  height: 63px;
+  
+  border: 1px solid #DF1CC5;
+  font: normal normal normal 18px/30px 'PT Sans';
+  letter-spacing: 1.8px;
+  color: #DF1CC5;
+  background-color: transparent;
+  cursor: pointer;
 }
