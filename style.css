@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 141px;
+    width: 100%;
+    max-width: 1440px;
+    height: 102px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  padding: 2.4rem;
+  transition: all 250ms linear 0s;
+}
+
+nav ul li a:hover {
+  color:#DF1CC5;
+} 
+
+header .container {
+  background: transparent radial-gradient(closest-side at 95% 76%, #FE1390 0%, #df1cc5 100%) 0% 0% no-repeat padding-box;
+  background: transparent radial-gradient(closest-side at 95% 76%, #FE1390 0%, #DF1CC5 100%) 0% 0% no-repeat padding-box;
+}
+
+header .container .title {
+  position: relative;
+  top: 186px;
+  left: 141px;
+  width: 762px;
+  height: 75px;
+  
+  text-shadow: 0px 3px 6px #00000029;
+  text-align: left;
+  letter-spacing: 0px;
+  font: normal normal 800 64px/64px 'Open Sans';
+  text-transform: uppercase;
+  color: #fff;
+}
+
+header button {
+  position: relative;
+  top: 381px;
+  left: 141px;
+  width: 250px;
+  height: 63px;
+
+  border: 3px solid #FFF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
+}
+
+header .container .img-banner {
+  position: relative;
+  left: 690px;
+  height: 500px;
+  width: 100%;
+  max-width: 1440px;
+}
