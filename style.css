@@ -186,7 +186,7 @@ section .phasellus .text-phasellus {
   position: relative;
   top: 134px;
   width: 60%;
-  max-width: 980px;
+  max-width: 100vw;
   margin: auto;
 
   display: grid;
@@ -234,6 +234,7 @@ section .suspendisse {
 
 .text-suspendisse {
   position: relative;
+  top: 72px;
   left: 339px;
   width: 564px;
   height: 70px;
@@ -246,9 +247,8 @@ section .suspendisse {
 
 section .arow-image {
   background-image: url(assets/arrow.png);
-  position: relative;
+  position:absolute;
   left: 933px;
   width: 111px;
   height: 200px;
-
 }
