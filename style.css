@@ -231,3 +231,24 @@ section .suspendisse {
   letter-spacing: 0px;
   font: italic normal 600 48px/48px 'Open Sans';
 }
+
+.text-suspendisse {
+  position: relative;
+  left: 339px;
+  width: 564px;
+  height: 70px;
+
+  color: #00000094;
+  text-align: center;
+  font: normal normal normal 16px/24px 'Open Sans';
+  letter-spacing: 0px;
+}
+
+section .arow-image {
+  background-image: url(assets/arrow.png);
+  position: relative;
+  left: 933px;
+  width: 111px;
+  height: 200px;
+
+}
