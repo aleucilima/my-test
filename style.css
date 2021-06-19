@@ -49,7 +49,7 @@ header nav ul li a:hover {
 }
 
 section.home .container {
-  background: transparent radial-gradient(closest-side at 95% 76%, #FE1390 0%, #DF1CC5 100%) 0% 0% no-repeat padding-box;
+  background: transparent radial-gradient(closest-side at 50% 50%, #FE1390 0%, #DF1CC5 100%) 0% 0% no-repeat padding-box;
 }
 
 h1 {
@@ -214,7 +214,7 @@ section.suspendisse .container {
 
 section.suspendisse h2{
   text-align: center;
-  margin: 72px 0px 0px 339px;
+  margin: 0px 0px 0px 339px;
 }
 
 section.suspendisse p {
@@ -232,16 +232,24 @@ section.suspendisse img {
 }
 
 
-section.suspendisse input {
-  margin: 10px 0px 0px 781px;
+
+section.suspendisse form {
+  border: 1px solid #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 480px;
   height: 44px;
-
-  border: 1px solid #E5E5E5;
-  background: #fff 0% 0% no-repeat padding-box;
   border-radius: 22px;
+  margin-left: 660px;
+}
+
+section.suspendisse input {
+  background: #fff 0% 0% no-repeat padding-box;
   outline: none;
-  padding-left: 22px;
+  border: none;
+  border-radius: 22px;
+  padding-left: 20px;
   color: #0000005E;
 }
 
@@ -249,15 +257,32 @@ section.suspendisse input {
   color: #0000005E;
 }
 
-section.suspendisse a.button {
+section.suspendisse button {
   background: transparent radial-gradient(closest-side at 50% 50%, #FE1390 0%, #DF1CC5 100%) 0% 0% no-repeat padding-box;
   border-radius: 22px;
+  text-transform: uppercase;
   width: 99px;
   height: 46px;
   color: #fff;
   outline: none;
+  border: none;
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   margin: auto;
