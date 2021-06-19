@@ -209,7 +209,7 @@ section.suspendisse .container {
   
   display: flex;
   align-items: center;
-  justify-items: start;
+  align-content: flex-end;
 }
 
 section.suspendisse h2{
@@ -227,7 +227,6 @@ section.suspendisse p {
 }
 
 section.suspendisse img {
-  
   width: 111px;
   height: 200px;
 }
