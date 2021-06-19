@@ -78,6 +78,8 @@ section.home .container {
   margin: auto;
   
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 section.home h1 {
@@ -110,6 +112,8 @@ section.loremIpsum .container {
   margin: auto;
   
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 section.loremIpsum div {
@@ -204,15 +208,17 @@ section.suspendisse .container {
   margin: auto;
   
   display: flex;
+  align-items: center;
+  justify-items: start;
 }
 
-section.suspendisse h2,
-section.suspendisse p {
+section.suspendisse h2{
   text-align: center;
   margin: 72px 0px 0px 339px;
 }
 
 section.suspendisse p {
+  text-align: center;
   width: 37vw;
   font-size: 16px;
   line-height: 26px;
@@ -221,12 +227,14 @@ section.suspendisse p {
 }
 
 section.suspendisse img {
+  
   width: 111px;
   height: 200px;
 }
 
-input {
-  margin: 71px 0px 0px 621px;
+
+section.suspendisse input {
+  margin: 10px 0px 0px 781px;
   width: 480px;
   height: 44px;
 
@@ -242,8 +250,14 @@ input {
   color: #0000005E;
 }
 
-section.suspendisse .container .button{
+section.suspendisse a.button {
   background: transparent radial-gradient(closest-side at 50% 50%, #FE1390 0%, #DF1CC5 100%) 0% 0% no-repeat padding-box;
+  border-radius: 22px;
+  width: 99px;
+  height: 46px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
 }
 
 footer {
