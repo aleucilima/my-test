@@ -400,7 +400,6 @@ footer {
   .menu-toggle {
       width: 40px;
       height: 30px;
-      margin-right: 20px;
   }
 
   /* fullscreen */
@@ -453,6 +452,7 @@ footer {
       font-size: 3rem;
       line-height: 4rem;
       display: block;
+      color: #fff;
       
   }
 
@@ -470,6 +470,14 @@ footer {
   section.home h1 {
     text-align: center;
     margin: auto;
+    font-size: 80%;
+  }
+
+  h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 3.4rem;
+
   }
 
   section.home .container .button {
@@ -483,13 +491,33 @@ footer {
   section.loremIpsum .container {
     flex-direction: column;
   }
-
+  
+  section.loremIpsum div {
+    width: 80%;
+  }
+  
   section.loremIpsum .container img {
     width: 50%;
     height: 50%;
     order: -1;
   }
+ 
+  section.loremIpsum .container .button {
+    margin-left: 50px;
+    width: 238px;
+  }
+  
+  section.phasellus div {
+    width: 80%;
+  }
 
+  section.phasellus p {
+    width: 80%;
+  }
+  
+  section.suspendisse .container div {
+    width: 80%;
+  }
   section.suspendisse .container img {
     width: 50%;
     height: 50%;
@@ -498,14 +526,14 @@ footer {
 
   section.suspendisse h2{
     text-align: center;
-    margin: 0px 0px 0px 149px;
+    margin-left: 105px;
   }
   
   section.suspendisse p {
     text-align: center;
     font-size: 1.6rem;
     line-height: 2.6rem;
-    margin: 24px 0px 0px 149px;
+    margin: 24px 0px 0px 141px;
     color: #00000094;
   }
   section.suspendisse form {
@@ -513,9 +541,6 @@ footer {
     height: 50%;
     border-radius: 22px;
     margin-left: 120px;
-  }
-  section.loremIpsum .container .button {
-    margin-left: -79px;
   }
 
 }
