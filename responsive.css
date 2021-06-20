@@ -1,3 +1,5 @@
+
+
 @media (max-width: 1025px) {
     html {
       font-size: 50%;
@@ -196,6 +198,10 @@
     section.loremIpsum div {
       width: 80%;
     }
+
+    section.loremIpsum p {
+        text-align: center;
+    }
     
     section.loremIpsum .container img {
       width: 50%;
@@ -216,26 +222,29 @@
       width: 80%;
     }
     
-    section.suspendisse .container div {
-      width: 80%;
-    }
     section.suspendisse .container img {
       width: 50%;
       height: 50%;
       display: none;
     }
-  
+
+    section.suspendisse .container div {
+        width:100%
+    }
+
     section.suspendisse h2{
       text-align: center;
-      margin-left: 105px;
+      margin: auto;
+      width: 80%;
     }
     
     section.suspendisse p {
       text-align: center;
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin: 24px 0px 0px 141px;
+      margin: auto;
       color: #00000094;
+      width: 80%;
     }
     section.suspendisse form {
         width: 80%;
@@ -394,26 +403,29 @@
       width: 80%;
     }
     
-    section.suspendisse .container div {
-      width: 80%;
-    }
     section.suspendisse .container img {
       width: 50%;
       height: 50%;
       display: none;
     }
   
+    section.suspendisse .container div {
+        width:100%
+    }
+
     section.suspendisse h2{
       text-align: center;
-      margin-left: 70px;
+      margin: auto;
+      width: 85%;
     }
     
     section.suspendisse p {
       text-align: center;
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin: 24px 0px 0px 116px;
+      margin: auto;
       color: #00000094;
+      width: 80%;
     }
     section.suspendisse form {
         width: 80%;
@@ -573,9 +585,6 @@
       width: 80%;
     }
     
-    section.suspendisse .container div {
-      width: 80%;
-    }
     section.suspendisse .container img {
       width: 50%;
       height: 50%;
@@ -584,14 +593,15 @@
   
     section.suspendisse h2{
       text-align: center;
-      margin-left: 70px;
+      margin: auto;
+      width: 80%
     }
     
     section.suspendisse p {
       text-align: center;
       font-size: 1.6rem;
       line-height: 2.6rem;
-      margin: 24px 0px 0px 100px;
+      margin: auto;
       color: #00000094;
     }
     section.suspendisse form {
