@@ -82,10 +82,9 @@ section.home .container {
   background: transparent radial-gradient(closest-side at 50% 50%, #FE1390 0%, #DF1CC5 100%) 0% 0% no-repeat padding-box;
 }
 
-section.home .container div, 
 section.home .container img {
-  margin: auto;
-
+  width: 650px;
+  height: 400px;
 }
 
 section.home h1 {
@@ -298,7 +297,7 @@ footer {
 
 /* RESPONSIVE */
 
-@media only screen and (min-width: 900px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   html {
     font-size: 50%;
   }
@@ -308,21 +307,7 @@ footer {
     height: 40%;
   }
 
-  section.home .container .button {
-    width: 50%;
-    height: 50%;
-  }
-  section.home .container .button {
-    width: 50%;
-    height: 50%;
-  }
-
   section.loremIpsum .container img {
-    width: 50%;
-    height: 50%;
-  }
-
-  .image-arrow {
     width: 50%;
     height: 50%;
   }
@@ -341,16 +326,16 @@ footer {
   section.home .container {
     flex-direction: column;
   }
+  
+  section.home h1 {
+    text-align: center;
+    margin: auto;
+  }
 
   section.home .container img {
     width: 50%;
     height: 50%;
     order: -1;
-  }
-
-  section.home h1 {
-    text-align: center;
-    margin: auto;
   }
 
   section.home .container .button {
@@ -386,14 +371,9 @@ footer {
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 426px) {
+@media (max-width: 540px) {
   html {
     font-size: 50%;
-  }
-  
-  header nav ul li {
-    list-style: none;
-    padding: 30px 1px;
   }
 
   section.home .container {
@@ -405,7 +385,6 @@ footer {
     width: 50%;
     height: 50%;
     order: -1;
-    display: none;
   }
 
   section.home h1 {
@@ -420,10 +399,15 @@ footer {
   section.loremIpsum .container {
     padding-bottom: 0px;
   }
+
+  section.loremIpsum .container {
+    flex-direction: column;
+  }
+
   section.loremIpsum .container img {
     width: 50%;
     height: 50%;
-    display: none;
+    order: -1;
   }
 
   section.suspendisse .container img {
@@ -449,6 +433,9 @@ footer {
     height: 50%;
     border-radius: 22px;
     margin-left: 120px;
+  }
+  section.loremIpsum .container .button {
+    margin-left: -79px;
   }
 
 }
