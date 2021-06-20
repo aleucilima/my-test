@@ -297,7 +297,7 @@ footer {
 
 /* RESPONSIVE */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   html {
     font-size: 50%;
   }
@@ -318,7 +318,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 768px) {
   html {
     font-size: 50%;
   }
@@ -371,9 +371,89 @@ footer {
 
 }
 
-@media (max-width: 540px) {
+@media (max-width: 426px) {
   html {
     font-size: 50%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
+
+  .one,
+  .two,
+  .three {
+      background-color: #000000de;
+      height: 5px;
+      width: 100%;
+      margin: 6px auto;
+
+      transition-duration: 0.3s;
+      
+  }
+
+  .menu-toggle {
+      width: 40px;
+      height: 30px;
+      margin-right: 20px;
+  }
+
+  /* fullscreen */
+  .menu-section.on {
+      position: absolute;
+      top:0;
+      left:0;
+      
+      width: 100vw;
+      height: 100vh;
+
+      background-color: #DF1CC5;
+      
+      z-index: 10;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .menu-section.on nav {
+      display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+      position: absolute;
+      right: 25px;
+      top: 15px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+      transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+      opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+      transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  .menu-section.on nav ul {
+      text-align: center;
+      display: block;
+  }
+
+  .menu-section.on nav ul a{
+      transition-duration: 0.5s;
+      font-size: 3rem;
+      line-height: 4rem;
+      display: block;
+      
   }
 
   section.home .container {
