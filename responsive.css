@@ -204,9 +204,9 @@
     }
    
     section.loremIpsum .container .button {
-      margin-left: 50px;
-      width: 238px;
-    }
+        margin-left: 28px;
+        width: 238px;
+      }
     
     section.phasellus div {
       width: 80%;
