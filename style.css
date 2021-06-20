@@ -50,6 +50,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: #DF1CC5;
+  transition: 0.3s ease-in-out;
 }
 
 h1 {
@@ -202,6 +203,38 @@ section.phasellus p {
   width: 259px;
   box-shadow: 0px 3px 6px #FE13900F;
   border-radius: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.card img {
+  margin-top: 60px;
+}
+
+.card .content {
+  position: relative;
+  top: 35px;
+
+  visibility: hidden;
+  opacity: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 208px;
+  height: 78px;
+  border-radius: 16px;
+  background: #FE1390;
+  transition: 0.3s ease-in-out;
+}
+
+.card .content div {
+  width: 176px;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  letter-spacing: 0px;
 }
 
 .card:hover {
@@ -209,6 +242,12 @@ section.phasellus p {
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   box-shadow: 0px 3px 15px #FE139030;
+}
+
+.card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
 }
 
 section.suspendisse .container {
