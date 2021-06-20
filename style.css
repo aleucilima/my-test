@@ -544,3 +544,182 @@ footer {
   }
 
 }
+
+@media (max-width: 320px) {
+  html {
+    font-size: 50%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 6px;
+    padding-top: 6px;
+  }
+
+  .one,
+  .two,
+  .three {
+      background-color: #000000de;
+      height: 5px;
+      width: 100%;
+      margin: 6px auto;
+
+      transition-duration: 0.3s;
+      
+  }
+
+  .menu-toggle {
+      width: 40px;
+      height: 30px;
+  }
+
+  /* fullscreen */
+  .menu-section.on {
+      position: absolute;
+      top:0;
+      left:0;
+      
+      width: 100vw;
+      height: 100vh;
+
+      background-color: #DF1CC5;
+      
+      z-index: 10;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .menu-section.on nav {
+      display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+      position: absolute;
+      right: 25px;
+      top: 15px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+      transform: rotate(45deg) translate(7px, 7px);
+  }
+
+  .menu-section.on .menu-toggle .two {
+      opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+      transform: rotate(-45deg) translate(8px, -9px);
+  }
+
+  .menu-section.on nav ul {
+      text-align: center;
+      display: block;
+  }
+
+  .menu-section.on nav ul a{
+      transition-duration: 0.5s;
+      font-size: 3rem;
+      line-height: 4rem;
+      display: block;
+      color: #fff;
+      
+  }
+
+  section.home .container {
+    flex-direction: column;
+    font-size: 5.2rem;
+  }
+
+  section.home .container img {
+    width: 50%;
+    height: 50%;
+    order: -1;
+  }
+
+  section.home h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 50%;
+  }
+
+  h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 3.4rem;
+
+  }
+
+  section.home .container .button {
+    margin: 10px 60px;
+    width: 196px;
+  }
+  
+  section.loremIpsum .container {
+    padding-bottom: 0px;
+  }
+
+  section.loremIpsum .container {
+    flex-direction: column;
+  }
+  
+  section.loremIpsum div {
+    width: 80%;
+  }
+  
+  section.loremIpsum .container img {
+    width: 50%;
+    height: 50%;
+    order: -1;
+  }
+ 
+  section.loremIpsum .container .button {
+    margin-left: 10px;
+    width: 238px;
+  }
+  
+  section.phasellus div {
+    width: 80%;
+  }
+
+  section.phasellus p {
+    width: 80%;
+  }
+  
+  section.suspendisse .container div {
+    width: 80%;
+  }
+  section.suspendisse .container img {
+    width: 50%;
+    height: 50%;
+    display: none;
+  }
+
+  section.suspendisse h2{
+    text-align: center;
+    margin-left: 105px;
+  }
+  
+  section.suspendisse p {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin: 24px 0px 0px 116px;
+    color: #00000094;
+  }
+  section.suspendisse form {
+    width: 50%;
+    height: 50%;
+    border-radius: 22px;
+    margin-left: 80px;
+  }
+
+  section.suspendisse button {
+    margin-left: -70px;
+  }
+
+}
